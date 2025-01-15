@@ -1,13 +1,13 @@
-{
-    "kitob": "книга",
-    "stol": "стол",
-    "oyna": "окно",
-    "do'st": "друг",
-    "ota": "отец",
-    "ona": "мать",
-    "bolalar": "дети",
-    "uy": "дом",
-    "maktab": "школа",
-    "muallim": "учитель"
-}
+[
+    { "id": 1, "uzbek": "kitob", "russian": "книга" },
+    { "id": 2, "uzbek": "stol", "russian": "стол" },
+    { "id": 3, "uzbek": "oyna", "russian": "окно" },
+    { "id": 4, "uzbek": "do'st", "russian": "друг" },
+    { "id": 5, "uzbek": "ota", "russian": "отец" },
+    { "id": 6, "uzbek": "ona", "russian": "мать" },
+    { "id": 7, "uzbek": "bolalar", "russian": "дети" },
+    { "id": 8, "uzbek": "uy", "russian": "дом" },
+    { "id": 9, "uzbek": "maktab", "russian": "школа" },
+    { "id": 10, "uzbek": "muallim", "russian": "учитель" }
+  ]
   
