@@ -1,13 +1,17 @@
 import React, { useContext } from "react";
 import { LugatContext } from "../context/LugatContext";
-import { FaHeart, FaInfoCircle, FaRegHeart } from "react-icons/fa";
+import 
+{ 
+  FaHeart, 
+  FaInfoCircle, 
+  FaRegHeart 
+} from "react-icons/fa";
 
 function Like() {
 
   const { datalugat, setDatalugat } = useContext(LugatContext);
 
   function handleClick(uzbek, russi) {
-
     const existingWord = datalugat.find((item) => item.uzbek === uzbek);
 
     if (existingWord) {
@@ -30,8 +34,7 @@ function Like() {
       datalugat && 
       datalugat.length > 0 ? (
         
-        <ul className="w-full md:w-1/3 mx-auto flex flex-col gap-2">
-          
+        <ul className="w-full md:w-1/3 mx-auto flex flex-col gap-2">         
           {
           datalugat.map(({ uzbek, russi }, index) => (
             

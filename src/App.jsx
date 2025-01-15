@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Test from "./pages/Test";
 import Like from "./pages/Like";
 import BarchaLugat from "./pages/BarchaLugat";
-import NotFound from "./pages/NotFound"; // 404 sahifa
+import NotFound from "./pages/NotFound";
 import { LugatProvider } from "./context/LugatContext";
 import { BarchalugatProvider } from "./context/BarchalugatContext";
 
@@ -19,7 +19,7 @@ function App() {
           <Route path="/test" element={<Test />} />
           <Route path="/like" element={<Like />} />
           <Route path="/words" element={<BarchaLugat />} />
-          <Route path="*" element={<NotFound />} /> {/* 404 sahifa */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </LugatProvider>
     </BarchalugatProvider>
